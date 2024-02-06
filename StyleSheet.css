@@ -7,6 +7,13 @@ a:hover {
 
 .homepage_image {border-top: 1px solid lightgrey;}
 
+body{
+  color: #01161e;
+}
+.obj_article_details .abstract {
+  text-align: justify;
+}
+
 .page_index_journal {display: flex; flex-direction: column;}
 .page_index_journal .homepage_image {order:1;}
 .page_index_journal .additional_content {order:2;}
@@ -44,15 +51,175 @@ a:hover {
 }
 .page_submissions .submission_checklist li .fa {
   color: #f18805;  
-)
+}
 
-body{
-  color: #01161e;
-}
-.obj_article_details .abstract {
-  text-align: justify;
-}
 .pkp_brand_footer {
   display: none;
 }
 
+.pkp_footer_content {
+  float: none;
+  width: 100%;
+  clear: both;
+  padding-top: 10px;
+}
+
+.pkp_page_index .current_issue h2 {
+  display: inline-block;
+  padding-bottom: 0em;
+  border-bottom: 3px solid #f18805;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #01161e;
+}
+
+
+/* Sidebar Kanan Customblock */
+.pkp_block {
+  font-size: 14px;
+  line-height: 20px;
+  clear: both;
+  border-bottom: 1.5px solid #ddd;
+}
+
+span .blockTitle {
+  color: whitesmoke;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-bottom: 15px;
+  padding: 0.5em 1em;
+  background-color: #124559;
+}
+
+.pkp_block {
+  padding: 1rem;
+}
+
+.cus-dropdown-title {
+  display: flex !important;
+  justify-content: space-between;
+  color : whitesmoke;
+  background-color: #124559;
+}
+
+.cus-dropdown-title::after {
+  content: "\25BE";
+}
+
+.cus-sidemenu {
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.cus-linkonly-item {
+  padding: 0px !important;
+}
+
+.cus-sidemenu>li:hover,
+.cus-linkonly:hover {
+  background: #124559;
+}
+
+.cus-sidemenu .cus-dropdown-title {
+  cursor: pointer;
+  display: block;
+  padding: 15px;
+  color: #whitesmoke;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.cus-linkonly {
+  cursor: pointer;
+  display: block;
+  padding: 15px;
+  color: #whitesmoke !important;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+/* .cus-sidemenu li:last-child .cus-dropdown-title {
+  border-bottom: 0;
+} */
+
+.cus-sidemenu li {
+  padding: 0px !important;
+}
+
+.cus-sidemenu li i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: #595959;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.cus-sidemenu li.open .cus-dropdown-title {
+  color: whitesmoke;
+}
+
+.cus-sidemenu li.open i {
+  color: #124559;
+}
+
+.cus-sidemenu li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/**
+* cus-menu
+-----------------------------*/
+.cus-menu {
+  display: none;
+  background: #ffffff;
+  font-size: 14px;
+  padding-left: 0;
+}
+
+.cus-menu li {
+  border-bottom: 1px solid #4b4a5e;
+}
+
+.cus-menu a {
+  display: block;
+  text-decoration: none;
+  color: #black;
+  font-weight:bold;
+  padding: 12px;
+  padding-left: 5px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.cus-menu a:hover {
+  background: #124559;
+  color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+  .is_img img{
+      height: 40px !important;
+    }
+}

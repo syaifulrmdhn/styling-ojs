@@ -82,7 +82,7 @@ body{
   border-bottom: 1.5px solid #ddd;
 }
 
-span .blockTitle {
+span.blockTitle {
   color: whitesmoke;
   display: block;
   font-weight: bold;

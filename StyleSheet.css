@@ -1,0 +1,58 @@
+a{
+	color: #124559;
+}
+a:hover {
+	color: #f18805;
+}
+
+.homepage_image {border-top: 1px solid lightgrey;}
+
+.page_index_journal {display: flex; flex-direction: column;}
+.page_index_journal .homepage_image {order:1;}
+.page_index_journal .additional_content {order:2;}
+.page_index_journal .cmp_announcements {order:3;}
+.page_index_journal .current_issue {order: 4;}
+.pkp_structure_head{ 
+  display: flex; flex-direction: column; order: 1;
+}
+.pkp_site_nav_menu{
+  display: flex; flex-direction: column; order: 1;
+}
+
+.cmp_notification {
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-left-color: #f18805;
+}
+
+.pkp_site_name .is_img img {
+    display: block;
+    max-height: 100px;
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+}
+.pkp_nav_list ul a{
+  color: #124559;
+}
+.pkp_navigation_primary .dropdown-menu a:hover {
+  border-color: #f18805;
+}
+
+.pkp_nav_list ul a:hover, .pkp_nav_list ul a:focus {
+  color: #124559;
+}
+.page_submissions .submission_checklist li .fa {
+  color: #f18805;  
+)
+
+body{
+  color: #01161e;
+}
+.obj_article_details .abstract {
+  text-align: justify;
+}
+.pkp_brand_footer {
+  display: none;
+}
+
